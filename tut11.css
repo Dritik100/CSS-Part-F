@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation: colAnimation 4s ease-in 0s infinite normal ;
+}
+@keyframes colAnimation{
+    0%{
+        background-color: green;
+    }
+    50%{
+       background-color: yellow;
+    }
+    80%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue
+    }
+}
+@keyframes fontAnimation{
+    from {
+         font-size: 20px;
+        }
+        to{
+            font-size: 40px;
+        }
+}
+@keyframes colorAnimation{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+}
